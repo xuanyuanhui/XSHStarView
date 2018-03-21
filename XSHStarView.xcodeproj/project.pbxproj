@@ -16,6 +16,7 @@
 		77FED704206231090014E906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FED703206231090014E906 /* main.m */; };
 		77FED70E206231090014E906 /* XSHStarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FED70D206231090014E906 /* XSHStarViewTests.m */; };
 		77FED719206231090014E906 /* XSHStarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FED718206231090014E906 /* XSHStarViewUITests.m */; };
+		77FED72B206235D10014E906 /* XSHStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FED72A206235D10014E906 /* XSHStarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		77FED714206231090014E906 /* XSHStarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSHStarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FED718206231090014E906 /* XSHStarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSHStarViewUITests.m; sourceTree = "<group>"; };
 		77FED71A206231090014E906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FED729206235D10014E906 /* XSHStarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSHStarView.h; sourceTree = "<group>"; };
+		77FED72A206235D10014E906 /* XSHStarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSHStarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				77FED6F2206231090014E906 /* AppDelegate.m */,
 				77FED6F4206231090014E906 /* ViewController.h */,
 				77FED6F5206231090014E906 /* ViewController.m */,
+				77FED729206235D10014E906 /* XSHStarView.h */,
+				77FED72A206235D10014E906 /* XSHStarView.m */,
 				77FED6F7206231090014E906 /* Main.storyboard */,
 				77FED6FD206231090014E906 /* Assets.xcassets */,
 				77FED6FF206231090014E906 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 				77FED6F6206231090014E906 /* ViewController.m in Sources */,
 				77FED6F3206231090014E906 /* AppDelegate.m in Sources */,
 				77FED704206231090014E906 /* main.m in Sources */,
+				77FED72B206235D10014E906 /* XSHStarView.m in Sources */,
 				77FED6FC206231090014E906 /* XSHStarView.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
